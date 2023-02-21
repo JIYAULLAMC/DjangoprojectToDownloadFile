@@ -16,7 +16,7 @@ def download(request):
    curent_dir = os.getcwd()
    current_folder = "myapp"
    file_path = f"{curent_dir}\{current_folder}"
-   filename = "\demo.txt"
+   filename = "\car6.jpg"
    file_path += filename
    chunk_size = 8192
    response = StreamingHttpResponse(
